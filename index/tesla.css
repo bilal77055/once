@@ -1,0 +1,277 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#sec-1{
+    height: 100vh;
+    /* width: 100%; */
+    background-image: url(../images/M3-Homepage-Desktop-LHD.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding-top: 1px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+    
+}
+header{
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    padding: 0 10px;
+    position: fixed;
+    top: 0%;
+}
+header>a>img{
+    width: 130px;
+    height: 100px;
+    margin-top: -20px;
+    margin-left: 30px;
+    cursor: pointer;
+    /* border: 1px solid #000; */
+}
+nav{
+    /* border: 1px solid #000; */
+    width: max-content;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 200px;
+    margin-top: 15px;
+    z-index: 3;
+}
+nav>ul>li{
+    display: inline-block;
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    cursor: pointer;
+    /* border: 1px solid #000; */
+    transition: all .30s linear;
+
+
+}
+nav>ul>li:hover{
+    background-color: #C5D0DA;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: #171A20;
+}
+#headerleft{
+    /* border: 1px solid #000; */
+    width: max-content;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+#headerleft>ul>li{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all .30s linear;
+}
+#headerleft>ul>li:hover{
+    background-color: #C3CFD9;
+}
+header{
+    width: 100%;
+}
+header>h4{
+    position: absolute;
+    right: 3%;
+    top: 18%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    background-color: #C3CFD9 ;
+    opacity: 0;
+}
+.dot{
+    height: 1px;
+}
+.sec-1written{
+    /* border: 1px solid #000; */
+    /* margin-top: 100px; */
+    /* height: max-content; */
+    box-sizing: border-box;
+    z-index: -3;
+    margin-top: 130px;
+    /* margin-left: 50%; */
+    /* transform: translate(-50%); */
+
+}
+.sec-1written>h1{
+    text-align: center;
+ 
+}
+.sec-1written>p{
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #171A20;
+}
+.sec-1written>p>a{
+    /* text-decoration: none; */
+    color: #171A20;
+}
+.buttonparent{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid #000; */
+    margin-top: 25%;
+    /* margin-left: 0%; */
+    /* height: max-content; */
+}
+.order{
+    width: 270px;
+    height: 40px;
+    font-size: 16px;
+    background-color: rgba(23, 26, 32, 0.719);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.existing{
+    margin-left: 10px;
+    background-color: rgba(232, 232, 231, 0.759);
+    color:  #171A20;
+}
+#moving{
+    margin-left: 50%;
+    /* border: 1px solid #000; */
+    width: max-content;
+    margin-top: 4%;
+    animation: moving 2s linear infinite;
+}
+@keyframes moving {
+    0%{
+        margin-top: 4%;
+    }
+    10%{
+        margin-top: 5%;
+    }
+    50%{
+        margin-top: 4%;
+    }
+    60%{
+        margin-top: 5%;
+    }
+    70%{
+        margin-top: 4%;
+    }
+    100%{
+        margin-top: 4%;
+    }
+}
+
+#sec-2{
+    height: 100vh;
+    background-image: url(../images/Desktop-ModelY.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 1px;
+}
+#sec-3{
+    height: 100vh;
+    background-image: url(../images/Homepage-Model-S-Desktop-LHD.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 1px;
+}
+#sec-4{
+    height: 100vh;
+    background-image: url(../images/Homepage-Model-X-Desktop-LHD.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 1px;
+}
+#sec-5{
+    height: 100vh;
+    background-image: url(../images/_25-HP-SolarPanels-D.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 1px;
+}
+#sec-6{
+    height: 100vh;
+    background-image: url(../images/home.webp);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 1px;
+}
+footer{
+    height: 100vh;
+    background-image: url(../images/charger.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 1px;
+    /* border: 1px solid #000; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+  
+}
+footer>h1{
+    margin-left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    /* border: 1px solid #000; */
+    /* margin-top: 730px; */
+    font-size: 30px;
+    box-sizing: border-box;
+    margin-top: 100px;
+ /* margin-top: 500px; */
+    /* align-self: center; */
+    
+
+}
+footer>button{
+    height: 40px;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 300px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    /* margin-left: 450px; */
+    /* transform: translate(-50%); */
+    background-color: #171A20;
+    /* border: 1px solid #000; */
+}
+footer>ul{
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    /* margin-top: 120px; */
+    margin-top: 10%;
+    /* border: 1px solid #000; */
+    /* border: 1px solid #000; */
+
+  
+}
+footer>ul>li{
+    /* border: 1px solid #000; */
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+    color:slategray;
+    font-size: 15px;
+    
+    
+}
